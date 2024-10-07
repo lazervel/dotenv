@@ -1,0 +1,29 @@
+{
+    "name": "envs/dotenv",
+    "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automatically.",
+    "type": "library",
+    "keywords": ["dotenv", "env"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dotenv\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shahzada Modassir",
+            "email": "codingmodassir@gmail.com",
+            "homepage": "https://github.com/shahzadamodassir"
+        }
+    ],
+    "funding": [
+    {
+      "type": "Github",
+      "url": "https://github.com/shahzadamodassir"
+    }
+  ],
+    "minimum-stability": "stable",
+    "require": {
+        "filesys/path": "^1.0"
+    }
+}
