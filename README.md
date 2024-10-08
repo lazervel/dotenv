@@ -21,4 +21,5 @@ Installation is super-easy via [Composer](https://getcomposer.org/)
 composer require envs/dotenv
 ```
 
+or add it by hand to your `composer.json` file.
 
