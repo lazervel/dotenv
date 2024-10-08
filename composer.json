@@ -22,7 +22,7 @@
       "url": "https://github.com/shahzadamodassir"
     }
   ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "filesys/path": "^1.0"
     }
