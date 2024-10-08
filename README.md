@@ -15,6 +15,8 @@ Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` au
 
 # Installation
 
+Installation is super-easy via [Composer](https://getcomposer.org/)
+
 ```bash
 composer require envs/dotenv
 ```
