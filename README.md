@@ -12,7 +12,7 @@ Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` au
 # Installation
 
 ```bash
-$ composer require envs/dotenv
+composer require envs/dotenv
 ```
 
 
