@@ -22,8 +22,8 @@
       "url": "https://github.com/shahzadamodassir"
     }
   ],
-    "minimum-stability": "beta",
+    "minimum-stability": "stable",
     "require": {
-        "filesys/path": "^1.0"
+        "filesys/path": ">=5.0 < 7.0"
     }
 }
