@@ -26,4 +26,5 @@ or add it by hand to your `composer.json` file.
 ## Usage
 
 ```php
+
 ```
