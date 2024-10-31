@@ -1,29 +1,38 @@
 {
-    "name": "envs/dotenv",
-    "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automatically.",
-    "type": "library",
-    "keywords": ["dotenv", "env"],
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Dotenv\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Shahzada Modassir",
-            "email": "codingmodassir@gmail.com",
-            "homepage": "https://github.com/shahzadamodassir"
-        }
-    ],
-    "funding": [
+  "name": "envs/dotenv",
+  "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automatically.",
+  "type": "library",
+  "keywords": ["dotenv", "env"],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Dotenv\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.2 || ^8.0",
+    "filesys/path": "^8.0"
+  },
+  "authors": [
+    {
+      "name": "Shahzada Modassir",
+      "email": "codingmodassir@gmail.com",
+      "homepage": "https://github.com/shahzadamodassir"
+    }
+  ],
+  "funding": [
     {
       "type": "Github",
       "url": "https://github.com/shahzadamodassir"
+    },
+    {
+      "type": "Patreon",
+      "url": "https://patreon.com/shahzadamodassir"
+    },
+    {
+      "type": "Opencollective",
+      "url": "https://opencollective.com/shahzadamodassir"
     }
   ],
-    "minimum-stability": "stable",
-    "require": {
-        "filesys/path": ">=5.0 < 7.0"
-    }
+  "minimum-stability": "stable"
 }
