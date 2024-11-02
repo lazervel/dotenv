@@ -48,7 +48,7 @@ final class Nested
             \sprintf('Failed to parse undefined environment variable [%s].', $key)
           );
         }
-        $entries[$i] = $entries[$key];
+        $entries[$i] = \preg_replace(self::NESTED, $entries[$key], $entry);
       }
     }
     return Resolve::create($entries);
