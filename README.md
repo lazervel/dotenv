@@ -98,7 +98,7 @@ $dotenv->required(['DB_HOST', 'DB_NAME', 'DB_USER', 'DB_PASS']);
 Security
 --------
 
-If you discover a security vulnerability within this package, please send an email to [shahzadamodassir@gmail.com](shahzadamodassir@gmail.com) All security vulnerabilities will be promptly addressed. You may view our full security policy [here](https://github.com/lazervel/dotenv/security/policy).
+If you discover a security vulnerability within this package, please send an email to [shahzadamodassir@gmail.com](mailto:shahzadamodassir@gmail.com) All security vulnerabilities will be promptly addressed. You may view our full security policy [here](https://github.com/lazervel/dotenv/security/policy).
 
 License
 -------
