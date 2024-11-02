@@ -26,5 +26,6 @@ or add it by hand to your `composer.json` file.
 ## Usage
 
 ```php
-
+use Dotenv\Dotenv;
+require 'vendor/autoload.php';
 ```
