@@ -6,6 +6,6 @@ namespace Dotenv\Loader;
 
 interface LoaderInterface
 {
-  public function load(array $entries);
+
 }
 ?>

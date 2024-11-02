@@ -6,6 +6,6 @@ namespace Dotenv\Parser;
 
 interface ParserInterface
 {
-
+  public function parse(string $content);
 }
 ?>

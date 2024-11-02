@@ -4,16 +4,21 @@ declare(strict_types=1);
 
 namespace Dotenv\Loader;
 
+use Dotenv\Backup\BackupInterface;
+
 final class Loader implements LoaderInterface
 {
-  public function load(array $entries)
+  /**
+   * 
+   * @param \Dotenv\Backup\BackupInterface $backup  [required]
+   * @param array                          $entries [required]
+   */
+  public function load(BackupInterface $backup, array $entries)
   {
-    foreach($entries as $name => $value)
-    {
-      $_SERVER[$name] = $_ENV[$name] = $value;
-      \putenv("$name=$value");
+    foreach($entries as $key => $entry) {
+      $backup->set($key, $entry);
     }
-    return true;
+    return $entries;
   }
 }
 ?>
