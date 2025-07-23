@@ -5,9 +5,9 @@ Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` au
 ![Banner](https://raw.githubusercontent.com/lazervel/assets/main/banners/dotenv.png)
 
 <p align="center">
-<a href="https://github.com/shahzadamodassir"><img src="https://img.shields.io/badge/Author-Shahzada%20Modassir-%2344cc11?style=flat-square"/></a>
+<a href="https://github.com/indianmodassir"><img src="https://img.shields.io/badge/Author-Indian%20Modassir-%2344cc11?style=flat-square"/></a>
 <a href="LICENSE"><img src="https://img.shields.io/github/license/lazervel/dotenv?style=flat-square"/></a>
-<a href="https://packagist.org/packages/envs/dotenv"><img src="https://img.shields.io/packagist/dt/envs/dotenv.svg?style=flat-square" alt="Total Downloads"></img></a>
+<a href="https://packagist.org/packages/lazervel/dotenv"><img src="https://img.shields.io/packagist/dt/lazervel/dotenv.svg?style=flat-square" alt="Total Downloads"></img></a>
 <a href="https://github.com/lazervel/dotenv/stargazers"><img src="https://img.shields.io/github/stars/lazervel/dotenv?style=flat-square"/></a>
 <a href="https://github.com/lazervel/dotenv/releases"><img src="https://img.shields.io/github/release/lazervel/dotenv.svg?style=flat-square" alt="Latest Version"></img></a>
 </p>
@@ -17,7 +17,7 @@ Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` au
 Installation is super-easy via [Composer](https://getcomposer.org/)
 
 ```bash
-composer require envs/dotenv
+composer require lazervel/dotenv
 ```
 
 or add it by hand to your `composer.json` file.
@@ -97,7 +97,7 @@ $dotenv->required(['DB_HOST', 'DB_NAME', 'DB_USER', 'DB_PASS']);
 Security
 --------
 
-If you discover a security vulnerability within this package, please send an email to [shahzadamodassir@gmail.com](mailto:shahzadamodassir@gmail.com) All security vulnerabilities will be promptly addressed. You may view our full security policy [here](https://github.com/lazervel/dotenv/security/policy).
+If you discover a security vulnerability within this package, please send an email to [indianmodassir@gmail.com](mailto:indianmodassir@gmail.com) All security vulnerabilities will be promptly addressed. You may view our full security policy [here](https://github.com/lazervel/dotenv/security/policy).
 
 License
 -------
