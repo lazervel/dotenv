@@ -12,7 +12,7 @@ use Dotenv\Resolver\Resolve;
 
 final class Nested
 {
-  private const NESTED = '/(?<!\\\\)\\$\\{([^\\{\\}]+)\\}/';
+  private const NESTED = '/(?<!\\\\)\\$\\{\\s*([^\\{\\}]+)\\s*\\}/';
 
   /**
    * 

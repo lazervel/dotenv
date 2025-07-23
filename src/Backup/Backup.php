@@ -26,7 +26,7 @@ final class Backup implements BackupInterface
       \putenv("$name=$value");
     }
     
-    $_SERVER[$name] = $_ENV = $value;
+    $_SERVER[$name] = $_ENV[$name] = $value;
   }
 
   private function isSupport()
