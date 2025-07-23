@@ -1,5 +1,5 @@
 {
-  "name": "envs/dotenv",
+  "name": "lazervel/dotenv",
   "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automatically.",
   "type": "library",
   "keywords": ["dotenv", "env"],
@@ -15,23 +15,9 @@
   },
   "authors": [
     {
-      "name": "Shahzada Modassir",
-      "email": "codingmodassir@gmail.com",
-      "homepage": "https://github.com/shahzadamodassir"
-    }
-  ],
-  "funding": [
-    {
-      "type": "Github",
-      "url": "https://github.com/shahzadamodassir"
-    },
-    {
-      "type": "Patreon",
-      "url": "https://patreon.com/shahzadamodassir"
-    },
-    {
-      "type": "Opencollective",
-      "url": "https://opencollective.com/shahzadamodassir"
+      "name": "Indian Modassir",
+      "email": "indianmodassir@gmail.com",
+      "homepage": "https://github.com/indianmodassir"
     }
   ],
   "minimum-stability": "stable"
