@@ -4,10 +4,10 @@ import os
 import sys
 import datetime
 
-# Add current directory to sys.path
+# Add root path
 sys.path.insert(0, os.path.abspath('..'))
 
-# -- Project information -----------------------------------------------------
+# -- Project info ------------------------------------------------------------
 
 project = 'dotenv'
 author = 'lazervel'
@@ -16,24 +16,21 @@ release = '1.0.0'
 
 # -- General configuration ---------------------------------------------------
 
-extensions = [
-    'myst_parser',  # enables Markdown parsing
-]
+extensions = ['myst_parser']
 
-# Only support markdown
+# Support Markdown
 source_suffix = {
     '.md': 'markdown',
 }
 
-# Set README.md as the main doc
+# Use README.md as the root document
 master_doc = 'README'
 
-# -- Options for HTML output -------------------------------------------------
+# -- HTML output -------------------------------------------------------------
 
 html_theme = 'sphinx_rtd_theme'
 
-# -- GitHub integration (optional) -------------------------------------------
-
+# Optional: GitHub integration
 html_context = {
     'display_github': True,
     'github_user': 'lazervel',
@@ -42,6 +39,6 @@ html_context = {
     'conf_py_path': '/docs/',
 }
 
-# -- Other configs -----------------------------------------------------------
+# -- Other -------------------------------------------------------------------
 
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
