@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Dotenv\Parser;
+namespace Lazervel\Dotenv\Parser;
 
-use Dotenv\Exception\VarNotFoundException;
-use Dotenv\Option\Option;
-use Dotenv\Util\RegExp;
-use Dotenv\Resolver\Reject;
-use Dotenv\Resolver\Resolve;
+use Lazervel\Dotenv\Exception\VarNotFoundException;
+use Lazervel\Dotenv\Option\Option;
+use Lazervel\Dotenv\Util\RegExp;
+use Lazervel\Dotenv\Resolver\Reject;
+use Lazervel\Dotenv\Resolver\Resolve;
 
 final class Nested
 {

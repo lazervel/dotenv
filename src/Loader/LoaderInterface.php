@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Dotenv\Loader;
+namespace Lazervel\Dotenv\Loader;
 
 interface LoaderInterface
 {

@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Dotenv\Validator;
+namespace Lazervel\Dotenv\Validator;
 
-use Dotenv\Exception\ValidationException;
-use Dotenv\Backup\BackupInterface;
-use Dotenv\Util\RegExp;
+use Lazervel\Dotenv\Exception\ValidationException;
+use Lazervel\Dotenv\Backup\BackupInterface;
+use Lazervel\Dotenv\Util\RegExp;
 
 final class Validator
 {

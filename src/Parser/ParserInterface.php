@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Dotenv\Parser;
+namespace Lazervel\Dotenv\Parser;
 
 interface ParserInterface
 {

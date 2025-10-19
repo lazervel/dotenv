@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Dotenv\Backup;
+namespace Lazervel\Dotenv\Backup;
 
 interface BackupInterface
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Dotenv\Resolver;
+namespace Lazervel\Dotenv\Resolver;
 
 abstract class Result
 {

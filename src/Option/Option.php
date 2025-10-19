@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Dotenv\Option;
+namespace Lazervel\Dotenv\Option;
 
 abstract class Option
 {

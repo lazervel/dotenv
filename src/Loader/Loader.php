@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Dotenv\Loader;
+namespace Lazervel\Dotenv\Loader;
 
-use Dotenv\Backup\BackupInterface;
+use Lazervel\Dotenv\Backup\BackupInterface;
 
 final class Loader implements LoaderInterface
 {

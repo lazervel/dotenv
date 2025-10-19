@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Dotenv\Reader;
+namespace Lazervel\Dotenv\Reader;
 
 interface ReaderInterface
 {

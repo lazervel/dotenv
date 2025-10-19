@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Dotenv\Resolver;
+namespace Lazervel\Dotenv\Resolver;
 
-use Dotenv\Option\Some;
-use Dotenv\Option\None;
+use Lazervel\Dotenv\Option\Some;
+use Lazervel\Dotenv\Option\None;
 
 final class Resolve extends Result
 {

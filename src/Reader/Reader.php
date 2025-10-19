@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Dotenv\Reader;
+namespace Lazervel\Dotenv\Reader;
 
-use Dotenv\Exception\InvalidEncodingException;
-use Dotenv\Option\Option;
-use Dotenv\Util\Convert;
+use Lazervel\Dotenv\Exception\InvalidEncodingException;
+use Lazervel\Dotenv\Option\Option;
+use Lazervel\Dotenv\Util\Convert;
 
 final class Reader
 {

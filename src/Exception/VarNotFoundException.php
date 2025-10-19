@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Dotenv\Exception;
+namespace Lazervel\Dotenv\Exception;
 
 final class VarNotFoundException extends \InvalidArgumentException implements ExceptionInterface
 {

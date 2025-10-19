@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Dotenv\Reader;
+namespace Lazervel\Dotenv\Reader;
 
-use Dotenv\Exception\InvalidPathException;
+use Lazervel\Dotenv\Exception\InvalidPathException;
 
 final class FileReader implements ReaderInterface
 {

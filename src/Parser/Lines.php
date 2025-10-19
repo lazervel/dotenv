@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Dotenv\Parser;
+namespace Lazervel\Dotenv\Parser;
 
-use Dotenv\Resolver\Resolve;
-use Dotenv\Resolver\Reject;
-use Dotenv\Util\RegExp;
+use Lazervel\Dotenv\Resolver\Resolve;
+use Lazervel\Dotenv\Resolver\Reject;
+use Lazervel\Dotenv\Util\RegExp;
 
 final class Lines
 {

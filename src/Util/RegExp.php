@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Dotenv\Util;
+namespace Lazervel\Dotenv\Util;
 
-use Dotenv\Resolver\Resolve;
-use Dotenv\Resolver\Reject;
+use Lazervel\Dotenv\Resolver\Resolve;
+use Lazervel\Dotenv\Resolver\Reject;
 
 final class RegExp
 {

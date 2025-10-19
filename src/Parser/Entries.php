@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Dotenv\Parser;
+namespace Lazervel\Dotenv\Parser;
 
-use Dotenv\Exception\InvalidFileException;
-use Dotenv\Resolver\Resolve;
-use Dotenv\Util\RegExp;
+use Lazervel\Dotenv\Exception\InvalidFileException;
+use Lazervel\Dotenv\Resolver\Resolve;
+use Lazervel\Dotenv\Util\RegExp;
 
 final class Entries
 {

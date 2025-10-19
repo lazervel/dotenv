@@ -20,17 +20,17 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace Dotenv;
+namespace Lazervel\Dotenv;
 
-use Dotenv\Loader\LoaderInterface;
-use Dotenv\Loader\Loader;
-use Dotenv\Parser\ParserInterface;
-use Dotenv\Parser\Parser;
-use Dotenv\Backup\BackupInterface;
-use Dotenv\Backup\Backup;
-use Dotenv\Validator\Validator;
-use Dotenv\Reader\StoreBuilder;
-use Dotenv\Reader\ReaderInterface;
+use Lazervel\Dotenv\Loader\LoaderInterface;
+use Lazervel\Dotenv\Loader\Loader;
+use Lazervel\Dotenv\Parser\ParserInterface;
+use Lazervel\Dotenv\Parser\Parser;
+use Lazervel\Dotenv\Backup\BackupInterface;
+use Lazervel\Dotenv\Backup\Backup;
+use Lazervel\Dotenv\Validator\Validator;
+use Lazervel\Dotenv\Reader\StoreBuilder;
+use Lazervel\Dotenv\Reader\ReaderInterface;
 
 class Dotenv
 {

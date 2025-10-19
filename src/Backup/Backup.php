@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Dotenv\Backup;
+namespace Lazervel\Dotenv\Backup;
 
-use Dotenv\Exception\VarNotFoundException;
-use Dotenv\Resolver\Resolve;
-use Dotenv\Resolver\Reject;
-use Dotenv\Parser\Parser;
-use Dotenv\Parser\ParserInterface;
+use Lazervel\Dotenv\Exception\VarNotFoundException;
+use Lazervel\Dotenv\Resolver\Resolve;
+use Lazervel\Dotenv\Resolver\Reject;
+use Lazervel\Dotenv\Parser\Parser;
+use Lazervel\Dotenv\Parser\ParserInterface;
 
 final class Backup implements BackupInterface
 {
