@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Lazervel\Dotenv\Reader;
 
-use Path\Path;
+use Lazervel\Path\Path;
 
 final class StoreBuilder
 {
